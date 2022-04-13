@@ -11,6 +11,13 @@ Proyecto Symfony 2 Standard Edition de Ejemplo, ideal para comenzar a trabajar u
 
 Symfony 2 - Estructura Standard descargada utilizando Composer.
 
+Video y documentación de Instalación
+----------------
+Puedes ver el video y la documentación
+
+Visitando la web www.drupaladicto.com
+
+o Viendo el video en este enlace: https://bit.ly/3Oa4yRx
 
 Instalación
 ----------------
