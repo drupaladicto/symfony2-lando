@@ -1,0 +1,6 @@
+name: symfony2-app
+recipe: symfony
+config:
+  php: 7.2
+  webroot: web
+  composer_version: '1.10.1'
