@@ -1,40 +1,69 @@
-# symfony2-lando
-Symfony 2 Demo Application with Lando
+Symfony Standard Edition
+========================
 
-Descripción
-----------------
-Proyecto Symfony 2 Standard Edition de Ejemplo, ideal para comenzar a trabajar utilizando Lando.
+Welcome to the Symfony Standard Edition - a fully-functional Symfony
+application that you can use as the skeleton for your new applications.
 
-#Archivos:
+For details on how to download and get started with Symfony, see the
+[Installation][1] chapter of the Symfony Documentation.
 
-.lando.yml - Modificado para funcionar con Composer 1, evitando errores de compatibilidad con Symfony.
+What's inside?
+--------------
 
-Symfony 2 - Estructura Standard descargada utilizando Composer.
+The Symfony Standard Edition is configured with the following defaults:
 
-Video y documentación de Instalación
-----------------
-Puedes ver el video y la documentación
+  * An AppBundle you can use to start coding;
 
-Visitando la web www.drupaladicto.com
+  * Twig as the only configured template engine;
 
-o Viendo el video en este enlace: https://bit.ly/3Oa4yRx
+  * Doctrine ORM/DBAL;
 
-Instalación
-----------------
-1.- Clonar el repositorio
+  * Swiftmailer;
 
-2.- Arrancar el lando, con el comando
+  * Annotations enabled for everything.
 
-    lando start
+It comes pre-configured with the following bundles:
 
-3.- Descargar las dependencias conel Composer
+  * **FrameworkBundle** - The core Symfony framework bundle
 
-    lando composer update
-	
-4.- Una vez terminado el proceso acceder a la página de bienvenida, añadiendo a la url app_dev.php:
+  * [**SensioFrameworkExtraBundle**][6] - Adds several enhancements, including
+    template and routing annotation capability
 
-http://symfony2-app.lndo.site/app_dev.php
-	
-## Para corregir posibles fallos, ejecutar el comando:
+  * [**DoctrineBundle**][7] - Adds support for the Doctrine ORM
 
-	lando rebuild
+  * [**TwigBundle**][8] - Adds support for the Twig templating engine
+
+  * [**SecurityBundle**][9] - Adds security by integrating Symfony's security
+    component
+
+  * [**SwiftmailerBundle**][10] - Adds support for Swiftmailer, a library for
+    sending emails
+
+  * [**MonologBundle**][11] - Adds support for Monolog, a logging library
+
+  * **WebProfilerBundle** (in dev/test env) - Adds profiling functionality and
+    the web debug toolbar
+
+  * **SensioDistributionBundle** (in dev/test env) - Adds functionality for
+    configuring and working with Symfony distributions
+
+  * [**SensioGeneratorBundle**][13] (in dev/test env) - Adds code generation
+    capabilities
+
+  * **DebugBundle** (in dev/test env) - Adds Debug and VarDumper component
+    integration
+
+All libraries and bundles included in the Symfony Standard Edition are
+released under the MIT or BSD license.
+
+Enjoy!
+
+[1]:  https://symfony.com/doc/2.8/setup.html
+[6]:  https://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/index.html
+[7]:  https://symfony.com/doc/2.8/doctrine.html
+[8]:  https://symfony.com/doc/2.8/templating.html
+[9]:  https://symfony.com/doc/2.8/security.html
+[10]: https://symfony.com/doc/2.8/email.html
+[11]: https://symfony.com/doc/2.8/logging.html
+[12]: https://symfony.com/doc/2.8/assetic/asset_management.html
+[13]: https://symfony.com/doc/current/bundles/SensioGeneratorBundle/index.html

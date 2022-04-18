@@ -4,3 +4,16 @@ config:
   php: 7.2
   webroot: web
   composer_version: '1.10.1'
+
+services:
+  phpmyadmin:
+    type: phpmyadmin
+    hosts:
+      - symfony2.symfony2app.internal
+  symfony2:
+    type: mariadb
+    portforward: true
+    creds:
+      user: symfony2
+      password: symfony2
+      database: symfony2
